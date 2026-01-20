@@ -1,0 +1,95 @@
+:root {
+    --color-primary: #C1C1C1;
+    --color-secondary: #2C4251;
+    --color-accent: #D16666;
+    --color-success: #ec7171;
+    --color-danger: rgb(255, 255, 255);
+}
+
+.primaryColorText {
+    color: var(--color-primary)
+}
+
+.secondaryColorText {
+    color: var(--color-secondary)
+}
+
+.accentColorText {
+    color: var(--color-accent)
+}
+
+.successColorText {
+    color: var(--color-success)
+}
+
+.dangerColorText {
+    color: var(--color-danger)
+}
+
+
+
+
+
+.primaryColorBg{
+    background-color: var(--color-primary);
+}
+
+.secondaryColorBg{
+    background-color: var(--color-secondary);
+}
+
+.accentColorBg{
+    background-color: var(--color-accent);
+}
+
+.successColorBg{
+    background-color: var(--color-success);
+}
+
+.dangerColorBg{
+    background-color: var(--color-danger);
+}
+
+
+.navCustom{
+    transition: color 0.2s ease-in-out;
+}
+
+.navCustom:hover{
+    color: var(--color-accent);
+}
+
+
+.navbar-nav .nav-link.navCustom:hover,
+.navbar-nav .nav-link.navCustom:focus {
+  color: var(--color-accent);
+}
+
+
+.sectionSpacer{
+    margin-bottom: 8rem;
+}
+
+
+.instagram-icon{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+.instagram-icon svg{
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  color: var(--color-danger);
+  
+}
+
+.instagram-icon:hover svg{
+    color:var(--color-accent)
+}
+
+
